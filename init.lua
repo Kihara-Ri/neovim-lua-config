@@ -16,5 +16,5 @@ require("plugins.autopairs") -- 自动补全括号
 require("plugins.bufferline") -- 顶部缓冲区
 require("plugins.gitsigns") -- git 标志
 require("plugins.telescope") -- 文件检索
-
-
+require("plugins.markview") -- markdown 渲染
+require("plugins.dashboard")

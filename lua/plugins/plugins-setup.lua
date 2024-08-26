@@ -47,6 +47,18 @@ local plugins = {
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
 
+  -- markdown实时渲染, 和 typora 相似
+  {
+    "OXY2DEV/markview.nvim",
+    lazy = false,      -- Recommended
+  },
+
+  -- 开屏 dashboard
+  {
+    'nvimdev/dashboard-nvim',
+    event = 'VimEnter',
+  },
+
 }
 local opts = {} -- 注意要定义这个变量
 

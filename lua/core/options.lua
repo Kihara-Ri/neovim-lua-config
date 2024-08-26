@@ -6,7 +6,7 @@ vim.cmd[[colorscheme tokyonight-moon]]
 
 vim.opt.autochdir = true
 vim.opt.cursorline = true -- 高亮光标所在的行
-vim.opt.wrap = false -- 超出屏幕不换行
+vim.opt.wrap = true -- 超出屏幕换行
 vim.opt.mouse:append("a") -- 启用鼠标
 vim.opt.clipboard:append("unnamedplus") -- 启用系统剪贴板
 
